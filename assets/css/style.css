@@ -1,5 +1,23 @@
 body {
     background-image: url(/assets/images/concrete_seamless.png);
+    width: 100%;
+}
+
+a, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #777777;
 }
 
 h1 {
@@ -9,31 +27,70 @@ h1 {
 
 .header {
     width: 100%;
-    height: 90px;
-    background-color: aliceblue;
+    height: 75px;
+    background-color: #ffffff;
     position: absolute;
     left: 0;
     top: 0;
-    border-bottom: solid gray 2px;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 15px;
 }
 
 #name {
-    width: 150px;
-    height: 90px;
+    padding: 0px 20px 0px 20px;
+    height: 75px;
+    width: fit-content;
     background-color: #4aaaa5;
     position: absolute;
     text-align: center;
-    left: 40px;
     color: aliceblue;
 }
 
 #links{
-    position: absolute;
-    right: 0;
-    bottom: 20px;
+    position: relative;
+    float: right;
+    top: 15px;
 }
 
 img {
-    width: 200px;
-    
+    width: 170px;
+    float: left;
+    padding-right: 10px;
+}
+
+#content_width {
+    height: 75px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 960px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#about_me {
+    color:  #4aaaa5;
+    border-bottom: 3px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    padding-bottom: 0;
+    border-top: 7px solid  #4aaaa5;
+    text-align: center;
+    color: aliceblue;
 }
