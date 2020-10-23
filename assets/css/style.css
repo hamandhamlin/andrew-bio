@@ -1,12 +1,20 @@
 body {
-    background-image: url(/assets/images/concrete_seamless.png);
+    background-image: url(/assets/images/dark_stone.jpeg);
     width: 100%;
+    line-height: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-a, p {
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    text-decoration: none;
 }
 
 ul {
@@ -28,11 +36,11 @@ h1 {
 .header {
     width: 100%;
     height: 75px;
-    background-color: #ffffff;
+    background-color: #666666;
     position: absolute;
     left: 0;
     top: 0;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 2px solid  #4aaaa5;
     border-radius: 15px;
 }
 
@@ -67,7 +75,7 @@ img {
 
 .container {
     width: 960px;
-    height: 300px;
+    height: fit-content;
     margin-right: auto;
     margin-left: auto;
     background-color: #ffffff;
